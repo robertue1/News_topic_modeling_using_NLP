@@ -17,3 +17,7 @@ And this is how a part of the result looks like:
 
 The MVP for this project will consists in creating a database to storage all of the news content (with the capacity of periodically adding articles to the database), 
 do preprocessing and apply topic modeling.  
+
+
+
+The end goal is to build a web app, where users could see the evolution of the news associated to the country, from 1999-to present times.  
