@@ -89,29 +89,29 @@ def app2(prev_vars): #Second page
 
 		#####
 
-# def app3(prev_vars): #Third page
-# 	if type(prev_vars) is int: #Checks if the user saved the variables previously
-# 		st.write("Ooops... You forgot to save the variables...")
-# 		start_index = prev_vars
-# 		save([start_index], "placeholder", ["App1"])
-# 	else:
-# 		try: #Checks if the user saved the last variable on the second page
-# 			start_index, var1, var2, var3 = prev_vars
-# 			if st.button("Click here to erase the last variable"):
-# 				clear_cache(["last_var"]) #Erases the variables saved under the name "last_var"
+def app3(prev_vars): #Third page
+	if type(prev_vars) is int: #Checks if the user saved the variables previously
+		st.write("Ooops... You forgot to save the variables...")
+		start_index = prev_vars
+		save([start_index], "placeholder", ["App1"])
+	else:
+		try: #Checks if the user saved the last variable on the second page
+			start_index, var1, var2, var3 = prev_vars
+			if st.button("Click here to erase the last variable"):
+				clear_cache(["last_var"]) #Erases the variables saved under the name "last_var"
 
-# 			if st.button("Click here to multiply the variables"):
-# 				st.write(var1*var2*var3)
-# 			save([start_index], "placeholder", ["App1"])
-# 		except:
-# 			st.write("Ooops... You forgot to save the last variable...")
-# 			start_index = prev_vars[0]
-# 			save([start_index], "placeholder", ["App1"])
+			if st.button("Click here to multiply the variables"):
+				st.write(var1*var2*var3)
+			save([start_index], "placeholder", ["App1"])
+		except:
+			st.write("Ooops... You forgot to save the last variable...")
+			start_index = prev_vars[0]
+			save([start_index], "placeholder", ["App1"])
 
 app.set_initial_page(startpage)
 app.add_app("App1", app1) #Adds first page (app1) to the framework
 app.add_app("App2", app2) #Adds second page (app2) to the framework
-# app.add_app("App3", app3) #Adds third page (app3) to the framework
+app.add_app("App3", app3) #Adds third page (app3) to the framework
 app.run() #Runs the multipage app!
 
 
