@@ -28,6 +28,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+st.write(''' 
+       ## Choose one of the following times frames to see the main topics in the news
+''')
+
 
 
 period  = st.selectbox(
