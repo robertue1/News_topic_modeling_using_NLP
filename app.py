@@ -33,5 +33,12 @@ st.markdown(link, unsafe_allow_html=True)
 
 
 
+period  = st.selectbox(
+     'Choose one of the following time frames',
+     ('1999-2004', '2004-2009', '2009-2013', '2013-2017'))
+
+st.write('You selected:', option)
+
+
 # Add all your application here
 app.add_app("Main", main.app)
