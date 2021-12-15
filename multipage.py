@@ -120,7 +120,7 @@ class MultiPage:
 				self.__initial_page.func()
 
 			else:
-				side_1, side_2 = st.sidebar.beta_columns(2)
+				side_1, side_2 = st.sidebar.columns(2)
 
 				with side_1:
 					if st.button(self.previous_page_button):
