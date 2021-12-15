@@ -49,6 +49,6 @@ if period == '1999-2004':
 
 
 def header(url):
-     st.markdown(f'<p style="background-color:#0066cc;opacity: 0.5;color:#33ff33;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
+     st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);opacity: 0.5;color:#33ff33;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
         
 header('Test')
