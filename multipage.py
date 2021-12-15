@@ -105,10 +105,10 @@ class MultiPage:
 
 		pag = read_page()
 
-		container_1 = st.beta_container()
+		container_1 = st.container()
 
 		if pag == -1:
-			container_2 = st.beta_container()
+			container_2 = st.container()
 			placeholder = st.empty()
 			with container_2:
 				if placeholder.button(self.start_button):
