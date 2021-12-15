@@ -37,7 +37,7 @@ period  = st.selectbox(
      'Choose one of the following time frames',
      ('1999-2004', '2004-2009', '2009-2013', '2013-2017'))
 
-st.write('You selected:', option)
+st.write('You selected:', period)
 
 
 # Add all your application here
