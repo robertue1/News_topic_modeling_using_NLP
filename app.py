@@ -26,3 +26,13 @@ st.markdown(
 
 link = "[Let's begin the journey](http://github.com)"
 st.markdown(link, unsafe_allow_html=True)
+
+
+from bokeh.models.widgets import Div
+
+if st.button('Go to Streamlit'):
+    js = "window.open('https://www.streamlit.io/')"  # New tab or window
+    js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
+    html = '<img src onerror="{}">'.format(js)
+    div = Div(text=html)
+    st.bokeh_chart(div)
