@@ -4,12 +4,9 @@ import os
 import matplotlib.pyplot as plt
 import pandas as pd
 
-from multiapp import MultiApp
-from apps import main
 
 
 
-app = MultiApp()
 
 st.write('''
 # Understanding the Venezuelan Crisis
@@ -29,7 +26,7 @@ st.markdown(
 )
 
 st.write(''' 
-       ## Choose one of the following times frames to see the main topics in the news
+       #### Choose one of the following times frames to see the main topics in the news
 ''')
 
 
@@ -41,5 +38,4 @@ period  = st.selectbox(
 st.write('You selected:', period)
 
 
-# Add all your application here
-app.add_app("Main", main.app)
+
