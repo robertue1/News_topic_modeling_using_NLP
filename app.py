@@ -33,4 +33,4 @@ st.markdown(link, unsafe_allow_html=True)
 
 
 # Add all your application here
-app.add_app("Home", home.app)
+app.add_app("Main", main.app)
