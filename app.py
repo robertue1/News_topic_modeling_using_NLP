@@ -40,11 +40,11 @@ st.write('You selected:', period)
 if period == '1999-2004':
     st.write('''
     The main topics in this time frame were:
-    Topic 1: oil company,president hugo,general strike,state oil
-    Topic 2: peaceful revolution,constituent assembly,latin america,new constitution
-    Topic 3: fidel castro,april fool,castro want,anti castro
-    Topic 4: qualify finals,beat uruguay,play australia,south american
-    Topic 5: pedro carmona,oil price,white house,unite state
+    * Topic 1: oil company,president hugo,general strike,state oil
+    * Topic 2: peaceful revolution,constituent assembly,latin america,new constitution
+    * Topic 3: fidel castro,april fool,castro want,anti castro
+    * Topic 4: qualify finals,beat uruguay,play australia,south american
+    * Topic 5: pedro carmona,oil price,white house,unite state
     ''')
 
 
