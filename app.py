@@ -9,7 +9,7 @@ from apps import main
 
 
 
-#PART 1
+app = MultiApp()
 
 st.write('''
 # Understanding the Venezuelan Crisis
