@@ -23,3 +23,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+link = "[Let's begin the journey](http://github.com)"
+st.markdown(link, unsafe_allow_html=True)
