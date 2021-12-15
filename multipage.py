@@ -78,7 +78,7 @@ class app:
 
 
 class MultiPage:
-	def __init__(self, next_page="Next Page", previous_page="Previous Page", navbar_name="Navigation", start_button="Let's go!"):
+	def __init__(self, next_page="Next Page", previous_page="Previous Page", navbar_name="", start_button="Let's go!"):
 		self.__initial_page = None
 		self.start_button = start_button
 		self.__initial_page_set = False
