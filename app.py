@@ -6,7 +6,7 @@ import pandas as pd
 
 
 
-PART 1
+#PART 1
 
 st.write('''
 # Welcome To Streamlit!
