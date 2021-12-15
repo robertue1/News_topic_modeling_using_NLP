@@ -111,7 +111,7 @@ def app3(prev_vars): #Third page
 app.set_initial_page(startpage)
 app.add_app("App1", app1) #Adds first page (app1) to the framework
 app.add_app("App2", app2) #Adds second page (app2) to the framework
-# app.add_app("App3", app3) #Adds third page (app3) to the framework
+app.add_app("App3", app3) #Adds third page (app3) to the framework
 app.run() #Runs the multipage app!
 
 
