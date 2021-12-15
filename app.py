@@ -37,5 +37,11 @@ period  = st.selectbox(
 
 st.write('You selected:', period)
 
+if period == '1999-2004':
+    st.write('''
+    The main topics in this time frame were:
+    * 1
+    * 22
+    ''')
 
 
