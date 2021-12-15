@@ -4,6 +4,10 @@ import os
 import matplotlib.pyplot as plt
 import pandas as pd
 
+from multiapp import MultiApp
+from apps import main
+
+
 
 #PART 1
 
@@ -26,3 +30,7 @@ st.markdown(
 
 link = "[Let's begin the journey](http://github.com)"
 st.markdown(link, unsafe_allow_html=True)
+
+
+# Add all your application here
+app.add_app("Home", home.app)
