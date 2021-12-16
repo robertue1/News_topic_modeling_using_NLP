@@ -78,7 +78,7 @@ if period == '2009-2014' :
     * Topic 1: president nicolas, rule party,
     [henrique capriles](https://www.theguardian.com/world/2012/feb/13/venezuela-hugo-chavez),
     national assembly
-    * Topic 2:[unite state](https://www.theguardian.com/commentisfree/2013/apr/22/united-states-contempt-venezuelan-democracy),
+    * Topic 2: [unite state](https://www.theguardian.com/commentisfree/2013/apr/22/united-states-contempt-venezuelan-democracy),
      south america, socialist revolution, president hugo
     * Topic 3: henrique capriles,
      [south america](https://www.theguardian.com/world/2013/mar/06/south-american-leaders-venezuelans-chavez)
