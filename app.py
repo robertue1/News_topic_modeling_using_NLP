@@ -40,9 +40,12 @@ st.write('                  ')
 if period == '1999-2004':
     st.write('''
     The main topics in this time frame were:
-    * Topic 1: oil company,president hugo,
-    [general strike](https://www.theguardian.com/world/2002/dec/07/oil.venezuela),state oil
-    * Topic 2: peaceful revolution,constituent assembly,latin america,new constitution
+    * Topic 1: [oil company](https://www.theguardian.com/world/2002/apr/08/venezuela.oil),
+    president hugo,
+    [general strike](https://www.theguardian.com/world/2002/dec/07/oil.venezuela),
+    [state oil](https://www.theguardian.com/world/2002/dec/28/venezuela.alexbellos)
+    * Topic 2: peaceful revolution,constituent assembly,latin america,
+    [new constitution](https://www.theguardian.com/world/1999/dec/17/alexbellos)
     * Topic 3: fidel castro,april fool,castro want,anti castro
     * Topic 4: qualify finals,beat uruguay,play australia,south american
     * Topic 5: pedro carmona,oil price,white house,unite state
