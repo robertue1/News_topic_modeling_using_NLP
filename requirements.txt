@@ -15,4 +15,5 @@ textblob==0.15.3
 scikit-image==0.18.3
 scikit-learn==1.0.1
 scipy==1.4.1
+schedule
 
