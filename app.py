@@ -10,7 +10,6 @@ from sqlalchemy import Table, Column, Integer, String, MetaData, Float, Date
 
 
 
-
 st.write('''
 # Understanding the Venezuelan Crisis
 ## Analysis of 20 years of news articles. 
@@ -188,3 +187,8 @@ if rows:
 else:
     st.write("Sorry, there are no articles to show for this search")
 
+def job():
+    st.write("Test...")
+
+    
+schedule.every(10).seconds.do(job)
