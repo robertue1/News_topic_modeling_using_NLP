@@ -60,6 +60,11 @@ if period == '1999-2004':
     ''')
 
 
+    
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0;">
+<a href="/donate">DONATE</a>
+</div>
+    
 # def header(url):
 #      st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);opacity: 0.5;color:#000000;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
         
