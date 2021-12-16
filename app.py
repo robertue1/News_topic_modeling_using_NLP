@@ -159,7 +159,7 @@ st.write("### You can try your own words to search")
 word = st.text_input('Type here')
 st.write(f"{word}")
 st.write("Write a year (from 1999 to present times)")
-year = st.number_input(min_value=1999, max_value=2021)
+year = st.number_input(label=' ',min_value=1999, max_value=2021)
 num_art = st.slider('How many articles would you like to check?', 1, 7, 1)
 
 engine = create_engine('sqlite:///news.db', echo=False)
