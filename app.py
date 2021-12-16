@@ -185,6 +185,10 @@ if rows:
         
 else:
     st.write("Sorry, there are no articles to show for this search")
+    st.image(
+            "https://previews.123rf.com/images/muslumstock/muslumstock1811/muslumstock181118915/111351301-404-error-vector-outline-icon-isolated-on-transparent-background-high-quality-linear-404-error-trans.jpg",
+            width=400, # Manually Adjust the width of the image as per requirement
+        )
 # def header(url):
 #      st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);opacity: 0.5;color:#000000;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
         
