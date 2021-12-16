@@ -36,7 +36,7 @@ period  = st.selectbox(
      ('1999-2004', '2004-2009', '2009-2014', '2014-2017', '2017-2021', 'Up to December 2021')
 
 
-if period == '1999-2004':
+if (period == '1999-2004') :
     st.write('''
     The main topics in this time frame were:
     
@@ -51,7 +51,7 @@ if period == '1999-2004':
     * Topic 5: pedro carmona,oil price,white house,unite state
     ''')
 
-if period == '2004-2009':
+if period == '2004-2009' :
     st.write('''
     The main topics in this time frame were:
     
@@ -71,7 +71,7 @@ if period == '2004-2009':
 
     
     
-if period == '2009-2014':
+if period == '2009-2014' :
     st.write('''
     The main topics in this time frame were:
     
@@ -92,7 +92,7 @@ if period == '2009-2014':
     
    
 
-if period == '2014-2017':
+if period == '2014-2017' :
     st.write('''
     The main topics in this time frame were:
     
@@ -111,7 +111,7 @@ if period == '2014-2017':
     [opposition leader](https://www.theguardian.com/world/2013/apr/25/venezuela-threatens-opposition-leader-protest),leopoldo lopez
     ''')
     
-if period == '2017-2021':
+if period == '2017-2021' :
     st.write('''
     The main topics in this time frame were:
     
@@ -135,7 +135,7 @@ if period == '2017-2021':
 
     
     
-if period == 'Up to December 2021':
+if period == 'Up to December 2021' :
     st.write(''' 
     * Topic 1: [venezuelan refugees](https://www.theguardian.com/global-development/2021/jul/06/i-didnt-eat-for-days-hunger-stalks-venezuelan-refugees),
     human right,latin american,[latin america](https://www.theguardian.com/global-development/2021/jun/21/latin-america-will-never-be-the-same-venezuela-exodus-reaches-record-levels)
