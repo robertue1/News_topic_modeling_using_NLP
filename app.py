@@ -12,7 +12,8 @@ import pandas as pd
 from sqlalchemy import create_engine
 from sqlalchemy import Table, Column, Integer, String, MetaData, Float, Date
 
-st.write("HEEEEEEEEEELP")
+
+
 
 st.write('''
 # Understanding the Venezuelan Crisis
