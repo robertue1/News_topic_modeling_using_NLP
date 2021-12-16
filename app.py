@@ -49,7 +49,7 @@ if period == '1999-2004':
     def header(url):
         st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);color:#000000;font-size:24px;border-radius:2%;">{url}', unsafe_allow_html=True)
         
-    header('''   The main topics in this time frame were:  <ul>
+    header( The main topics in this time frame were:  <ul>
     <li> Topic 1: oil company,president hugo,general strike,state oil
     <li> Topic 2: peaceful revolution,constituent assembly,latin america,new constitution
     <li> Topic 3: fidel castro,april fool,castro want,anti castro
@@ -57,7 +57,7 @@ if period == '1999-2004':
     <li> Topic 5: pedro carmona,oil price,white house,unite state
     </ul>
     </p>
-    ''')
+    )
 
 
     
