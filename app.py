@@ -157,7 +157,6 @@ st.write("## Now, you will have the chance to explore articles on your own")
 
 st.write("### You can try your own words to search")
 word = st.text_input('Type here')
-st.write(f"{word}")
 st.write("Write a year (from 1999 to present times)")
 year = st.number_input(label=' ',min_value=1999, max_value=2021)
 num_art = st.slider('How many articles would you like to check?', 1, 7, 1)
@@ -168,7 +167,10 @@ engine = create_engine('sqlite:///news.db', echo=False)
 
 rows = engine.execute(f"SELECT title, url, date FROM newstable WHERE title LIKE '%{word}%' AND date LIKE '%{year}%' LIMIT {num_art}").fetchall()
 
+st.markdown("""<hr style="height:10px;border:none;color:#696969;background-color:#333;" /> """, unsafe_allow_html=True)
+
 # Print results.
+st.write(f"### Results for the search of {word} in the year {year}")
 for row in rows:
     st.write(f"Title : {row[0]}")
     st.write(f"{row[1]}")
