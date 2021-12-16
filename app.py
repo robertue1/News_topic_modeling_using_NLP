@@ -47,7 +47,7 @@ if period == '1999-2004':
 #     * Topic 5: pedro carmona,oil price,white house,unite state
 #     ''')
     def header(url):
-        st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);opacity: 0.5;color:#000000;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
+        st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);color:#000000;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
         
     header('''   The main topics in this time frame were:
     * Topic 1: oil company,president hugo,general strike,state oil
