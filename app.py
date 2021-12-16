@@ -33,7 +33,7 @@ st.write('''
 
 period  = st.selectbox(
      'Choose one of the following time frames',
-     ('[1999-2004)', '[2004-2009)', '[2009-2014)', '[2014-2017)', '[2017-2021)', 'Up to December 2021')
+     ('1999-2004', '2004-2009', '2009-2014', '2014-2017', '2017-2021', 'Up to December 2021')
 
 
 if period == '1999-2004':
