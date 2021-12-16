@@ -151,6 +151,11 @@ if period == 'Up to December 2021' :
  ##Database connection for user generated queries.
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+
+st.write("## Now, you will have the chance to explore articles on your own")
+
+st.write("#")
 
 num_art = st.slider('How many articles would you like to check?', 1, 7, 1)
 
