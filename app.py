@@ -165,7 +165,7 @@ engine = create_engine('sqlite:///news.db', echo=False)
 # articles = pd.read_sql_query(f"SELECT title, url FROM newstable limit {num_art}", engine)
 # st.write("Articles: ", articles)
 
-rows = engine.execute(f"SELECT title, url FROM newstable limit {num_art} WHERE title LIKE '%{word}'").fetchall()
+rows = engine.execute(f"SELECT title, url FROM newstable WHERE title LIKE '%{word}%' LIMIT {num_art}").fetchall()
 
 # Print results.
 for row in rows:
