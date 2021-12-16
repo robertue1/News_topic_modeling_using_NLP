@@ -167,8 +167,7 @@ rows = engine.execute(f"SELECT title, url FROM newstable limit {num_art}").fetch
 
 # Print results.
 for row in rows:
-    st.write(f"""Title: {row[0]}        <br /> 
-             {row[1]}""")
+    st.write(f"""Title: {row[0]}  {row[1]}""")
 # def header(url):
 #      st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);opacity: 0.5;color:#000000;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
         
