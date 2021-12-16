@@ -40,6 +40,7 @@ st.write('                  ')
 if period == '1999-2004':
     st.write('''
     The main topics in this time frame were:
+    
     * Topic 1: [oil company](https://www.theguardian.com/world/2002/apr/08/venezuela.oil),
     president hugo,
     [general strike](https://www.theguardian.com/world/2002/dec/07/oil.venezuela),
@@ -54,6 +55,7 @@ if period == '1999-2004':
 if period == '2004-2009':
     st.write('''
     The main topics in this time frame were:
+    
     * Topic 1: latin american, 
     [george bush](https://www.theguardian.com/news/blog/2007/mar/12/snappingatbus) 
     ,[bush administration](https://www.theguardian.com/world/2005/feb/22/venezuela.julianborger),venezuelan president
@@ -64,8 +66,8 @@ if period == '2004-2009':
     latin american,simon bolivar,latin america
     * Topic 4: public service,[socialist revolution](https://www.theguardian.com/commentisfree/2006/may/15/chavezispopulistnotasocia),
     term limit,[opinion poll](https://www.theguardian.com/world/2004/aug/16/venezuela.danglaister)
-    * Topic 5: [colombia farc](https://www.theguardian.com/world/2008/sep/13/venezuela.usa
-),revolutionary arm,force colombia,arm force
+    * Topic 5: [colombia farc](https://www.theguardian.com/world/2008/sep/13/venezuela.usa),
+    revolutionary arm,force colombia,arm force
     ''')
 
     
@@ -73,6 +75,7 @@ if period == '2004-2009':
 if period == '2009-2014':
     st.write('''
     The main topics in this time frame were:
+    
     * Topic 1: president nicolas,rule party,
     [henrique capriles](https://www.theguardian.com/world/2012/feb/13/venezuela-hugo-chavez),
     national assembly,nicolas maduro
@@ -85,8 +88,7 @@ if period == '2009-2014':
     * Topic 4: [socialist revolution](https://www.theguardian.com/world/2012/oct/08/venezuela-election-hugo-chavez),
     vice president,national assembly,human right,national guard
     * Topic 5: national assembly,south america,socialist revolution,oil revenues,
-    [oil company](https://www.theguardian.com/world/2009/jul/16/venezuela-oil-hugo-chavez-politics
-)
+    [oil company](https://www.theguardian.com/world/2009/jul/16/venezuela-oil-hugo-chavez-politics)
     ''')
     
    
@@ -94,6 +96,7 @@ if period == '2009-2014':
 if period == '2014-2017':
     st.write('''
     The main topics in this time frame were:
+    
     * Topic 1: [nicolas maduro](https://www.theguardian.com/world/2012/dec/12/hugo-chavez-heir),
     [recall referendum](https://www.theguardian.com/world/2009/feb/16/venezuela-hugo-chavez),
     oil price,
@@ -106,8 +109,7 @@ if period == '2014-2017':
     [black market](https://www.theguardian.com/global-development-professionals-network/2015/apr/16/venezuela-economy-black-market-milk-and-toilet-paper)
     * Topic 5: [leader leopoldo](https://www.theguardian.com/world/2015/sep/11/venezuela-opposition-leader-leopoldo-lopez-sentenced-to-14-years-in-jai),
     leader leopoldo lopez,
-    [opposition leader](https://www.theguardian.com/world/2013/apr/25/venezuela-threatens-opposition-leader-protest),
-    leopoldo lopez
+    [opposition leader](https://www.theguardian.com/world/2013/apr/25/venezuela-threatens-opposition-leader-protest),leopoldo lopez
     ''')
 
 
