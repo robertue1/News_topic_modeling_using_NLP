@@ -156,7 +156,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3
 st.write("## Now, you will have the chance to explore articles on your own")
 
 st.write("#You can try your own words to search")
-word = st.input('Type here')
+word = st.text_input('Type here')
 st.write(f"{word}")
 
 num_art = st.slider('How many articles would you like to check?', 1, 7, 1)
