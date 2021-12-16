@@ -160,9 +160,12 @@ if period == 'Up to December 2021' :
 
 st.markdown("""<hr style="height:10px;border:none;color:##E8E8E8;background-color:##E8E8E8	;" /> """, unsafe_allow_html=True)
 st.markdown("""<hr style="height:10px;border:none;color:##E8E8E8;background-color:##E8E8E8	;" /> """, unsafe_allow_html=True)
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:##E8E8E8;background-color:##E8E8E8	;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:##E8E8E8;background-color:##E8E8E8	;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:##E8E8E8;background-color:##E8E8E8	;" /> """, unsafe_allow_html=True)
+# st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+# st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+# st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 
 st.write("## Now, you will have the chance to explore articles on your own")
 
