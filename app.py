@@ -245,7 +245,7 @@ def job():
           #articles, to see if i should break the for loop prematurely
           if retrieved_articles > num_articles:
             break
-      st.write(f"{num_articles}")
+    st.write(f"{num_articles}")
     
     
 while True:
