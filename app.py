@@ -174,7 +174,7 @@ rows = engine.execute(f"SELECT title, url, date FROM newstable WHERE title LIKE 
 st.markdown("""<hr style="height:10px;border:none;color:#696969;background-color:#333;" /> """, unsafe_allow_html=True)
 
 # Print results.
-st.write(f"### Results for the search of {word} in the year {year}")
+st.write(f"### Results for the search of '{word}' in the year {year}")
 for row in rows:
     st.write(f"Title : {row[0]}")
     st.write(f"{row[1]}")
