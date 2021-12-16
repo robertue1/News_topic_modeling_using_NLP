@@ -202,56 +202,56 @@ else:
     
     
 
-# http = urllib3.PoolManager(
-# cert_reqs='CERT_REQUIRED',
-# ca_certs=certifi.where())
+http = urllib3.PoolManager(
+cert_reqs='CERT_REQUIRED',
+ca_certs=certifi.where())
 
     
     
     
     
-# #Working on the automatic update of the database    
+#Working on the automatic update of the database    
 
-# def job():
-#     API_KEY = '189604c2-ac97-4295-9ccf-e3556505cff3'
-#     query = "Venezuela | Chavez | Maduro"
-#     query_fields = "webTitle"
-#     section = "news"
-#     show_fields = "body"
-#     page_size = "100"
-#     from_date = "2021-12-01"
-#     to_date = "Inifite and beyond"
-#     retrieved_articles = 0
-#     num_articles=0 #initally
-#     st.write(f"{num_articles}")
-#     for i in range(1,100):
-#           query_url = f"http://content.guardianapis.com/search?" \
-#                       f"api-key={API_KEY}" \
-#                       f"&q={query}" \
-#                       f"&query-fields ={query_fields}"\
-#                       f"&page={i}" f"&page-size={page_size}"\
-#                       f"&show-fields={show_fields}"\
-#                       f"&from-date={from_date}" \
+def job():
+    API_KEY = '189604c2-ac97-4295-9ccf-e3556505cff3'
+    query = "Venezuela | Chavez | Maduro"
+    query_fields = "webTitle"
+    section = "news"
+    show_fields = "body"
+    page_size = "100"
+    from_date = "2021-12-01"
+    to_date = "Inifite and beyond"
+    retrieved_articles = 0
+    num_articles=0 #initally
+    st.write(f"{num_articles}")
+    for i in range(1,100):
+          query_url = f"http://content.guardianapis.com/search?" \
+                      f"api-key={API_KEY}" \
+                      f"&q={query}" \
+                      f"&query-fields ={query_fields}"\
+                      f"&page={i}" f"&page-size={page_size}"\
+                      f"&show-fields={show_fields}"\
+                      f"&from-date={from_date}" \
 
-#           r = http.request('GET', query_url)
-#           time.sleep(1)
-#           data = json.loads(r.data.decode('utf-8')) #Saving the articles in data
-#           num_articles = data['response']['total'] #This is the total number of articles in the range of search. 
-#           #Here, I'm creating 'df' if it is the first time running the code, otherwise, I'll be concatenating the new data to the exisiting 'df'. 
-#           if i == 1:
-#             df = pd.json_normalize(data['response'],record_path=['results'])
-#           else:
-#             df = pd.concat([df,pd.json_normalize(data['response'],record_path=['results'])], axis=0)
-#           retrieved_articles = int(page_size)*i
-#           #Now, I'm gonna compare the number of articles retrieved versus the total of 
-#           #articles, to see if i should break the for loop prematurely
-#           if retrieved_articles > num_articles:
-#             break
+          r = http.request('GET', query_url)
+          time.sleep(1)
+          data = json.loads(r.data.decode('utf-8')) #Saving the articles in data
+          num_articles = data['response']['total'] #This is the total number of articles in the range of search. 
+          #Here, I'm creating 'df' if it is the first time running the code, otherwise, I'll be concatenating the new data to the exisiting 'df'. 
+          if i == 1:
+            df = pd.json_normalize(data['response'],record_path=['results'])
+          else:
+            df = pd.concat([df,pd.json_normalize(data['response'],record_path=['results'])], axis=0)
+          retrieved_articles = int(page_size)*i
+          #Now, I'm gonna compare the number of articles retrieved versus the total of 
+          #articles, to see if i should break the for loop prematurely
+          if retrieved_articles > num_articles:
+            break
     
     
     
-# while True:
-#     schedule.run_pending()
-#     time.sleep(30)
+while True:
+    schedule.run_pending()
+    time.sleep(30)
     
-# schedule.every(10).seconds.do(job)
+schedule.every(10).seconds.do(job)
