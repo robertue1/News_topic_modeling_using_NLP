@@ -169,7 +169,7 @@ engine = create_engine('sqlite:///newsve.db', echo=False)
 # articles = pd.read_sql_query(f"SELECT title, url FROM newstable limit {num_art}", engine)
 # st.write("Articles: ", articles)
 
-rows = engine.execute(f"SELECT title, url, date FROM newstable WHERE title LIKE '%{word}%' AND date LIKE '%{year}%' LIMIT {num_art}").fetchall()
+rows = engine.execute(f"SELECT title, url, date FROM news_table WHERE title LIKE '%{word}%' AND date LIKE '%{year}%' LIMIT {num_art}").fetchall()
 
 st.markdown("""<hr style="height:10px;border:none;color:#696969;background-color:#333;" /> """, unsafe_allow_html=True)
 
