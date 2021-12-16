@@ -163,15 +163,13 @@ st.markdown("""<hr style="height:10px;border:none;color:##E8E8E8;background-colo
 st.markdown("""<hr style="height:10px;border:none;color:##E8E8E8;background-color:##E8E8E8	;" /> """, unsafe_allow_html=True)
 st.markdown("""<hr style="height:10px;border:none;color:##E8E8E8;background-color:##E8E8E8	;" /> """, unsafe_allow_html=True)
 st.markdown("""<hr style="height:10px;border:none;color:##E8E8E8;background-color:##E8E8E8	;" /> """, unsafe_allow_html=True)
-# st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
-# st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
-# st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+
 
 st.write("## Now, you will have the chance to explore articles on your own")
 
 st.write("### You can try your own words to search")
 word = st.text_input('Type here')
-st.write("Write a year (from 1999 to present times)")
+st.write("Select a year (from 1999 to present times)")
 year = st.number_input(label=' ',min_value=1999, max_value=2021)
 num_art = st.slider('How many articles would you like to check?', 1, 7, 1)
 
