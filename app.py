@@ -137,6 +137,8 @@ if period == '2017-2021' :
     
 if period == 'Up to December 2021' :
     st.write(''' 
+    The main topics in this time frame were:
+    
     * Topic 1: [venezuelan refugees](https://www.theguardian.com/global-development/2021/jul/06/i-didnt-eat-for-days-hunger-stalks-venezuelan-refugees),
     human right,latin american,[latin america](https://www.theguardian.com/global-development/2021/jun/21/latin-america-will-never-be-the-same-venezuela-exodus-reaches-record-levels)
     * Topic 2: [refugees migrants](https://www.theguardian.com/global-development/2021/feb/11/i-can-build-a-real-life-colombia-to-grant-legal-status-to-venezuelan-migrants),drug traffic,tell guardian,year old
