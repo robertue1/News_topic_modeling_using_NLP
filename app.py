@@ -154,7 +154,7 @@ num_art = st.slider('How many articles would you like to check?', 1, 10, 1)
 
 engine = create_engine('sqlite:///news.db', echo=False)
 articles = pd.read_sql_query(f"SELECT title, url FROM newstable limit {num_art}", engine)
-st.write("Articles: ", for row in articles['title])
+st.write("Articles: ", articles)
     
 # def header(url):
 #      st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);opacity: 0.5;color:#000000;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
