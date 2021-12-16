@@ -160,9 +160,17 @@ st.write("#")
 num_art = st.slider('How many articles would you like to check?', 1, 7, 1)
 
 engine = create_engine('sqlite:///news.db', echo=False)
-articles = pd.read_sql_query(f"SELECT title, url FROM newstable limit {num_art}", engine)
-st.write("Articles: ", articles)
-    
+# articles = pd.read_sql_query(f"SELECT title, url FROM newstable limit {num_art}", engine)
+# st.write("Articles: ", articles)
+def run_query(query):
+    with engine.cursor() as cur:
+        cur.execute(query)
+        return cur.fetchall()
+rows = run_query(f"SELECT title, url from newstable limit {num_art}")
+
+# Print results.
+for row in rows:
+    st.write(f"{row[0]} has a :{row[1]}:")
 # def header(url):
 #      st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);opacity: 0.5;color:#000000;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
         
