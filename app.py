@@ -38,26 +38,26 @@ period  = st.selectbox(
 st.write('                  ')
 
 if period == '1999-2004':
-#     st.write('''
-#     The main topics in this time frame were:
-#     * Topic 1: oil company,president hugo,general strike,state oil
-#     * Topic 2: peaceful revolution,constituent assembly,latin america,new constitution
-#     * Topic 3: fidel castro,april fool,castro want,anti castro
-#     * Topic 4: qualify finals,beat uruguay,play australia,south american
-#     * Topic 5: pedro carmona,oil price,white house,unite state
-#     ''')
-    def header(url):
-        st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);color:#000000;font-size:24px;border-radius:2%;">{url}', unsafe_allow_html=True)
+    st.write('''
+    The main topics in this time frame were:
+    * Topic 1: oil company,president hugo,general strike,state oil
+    * Topic 2: peaceful revolution,constituent assembly,latin america,new constitution
+    * Topic 3: fidel castro,april fool,castro want,anti castro
+    * Topic 4: qualify finals,beat uruguay,play australia,south american
+    * Topic 5: pedro carmona,oil price,white house,unite state
+    ''')
+#     def header(url):
+#         st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);color:#000000;font-size:24px;border-radius:2%;">{url}', unsafe_allow_html=True)
         
-    header( """The main topics in this time frame were:  <ul>
-    <li> Topic 1: oil company,president hugo,general strike,state oil
-    <li> Topic 2: peaceful revolution,constituent assembly,latin america,new constitution
-    <li> Topic 3: fidel castro,april fool,castro want,anti castro
-    <li> Topic 4: qualify finals,beat uruguay,play australia,south american
-    <li> Topic 5: pedro carmona,oil price,white house,unite state
-    </ul>
-    </p>
-    """)
+#     header( """The main topics in this time frame were:  <ul>
+#     <li> Topic 1: oil company,president hugo,general strike,state oil
+#     <li> Topic 2: peaceful revolution,constituent assembly,latin america,new constitution
+#     <li> Topic 3: fidel castro,april fool,castro want,anti castro
+#     <li> Topic 4: qualify finals,beat uruguay,play australia,south american
+#     <li> Topic 5: pedro carmona,oil price,white house,unite state
+#     </ul>
+#     </p>
+#     """)
 
 
     
