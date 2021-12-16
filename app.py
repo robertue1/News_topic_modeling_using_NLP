@@ -5,6 +5,7 @@ import schedule
 
 import urllib3
 from urllib3 import request
+import certifi
 
 import matplotlib.pyplot as plt
 import pandas as pd
