@@ -33,7 +33,7 @@ st.write('''
 
 period  = st.selectbox(
      'Choose one of the following time frames',
-     ('1999-2004', '2004-2009', '2009-2014', '2014-2017'))
+     ('[1999-2004)', '[2004-2009)', '[2009-2014)', '[2014-2017)', '[2017-2021)', 'Up to December 2021')
 
 st.write('                  ')
 
@@ -111,7 +111,41 @@ if period == '2014-2017':
     leader leopoldo lopez,
     [opposition leader](https://www.theguardian.com/world/2013/apr/25/venezuela-threatens-opposition-leader-protest),leopoldo lopez
     ''')
+    
+if period == '2017-2021':
+    st.write('''
+    The main topics in this time frame were:
+    
+    * Topic 1: nicolas maduro,
+    [opposition leader](https://www.theguardian.com/world/2019/feb/05/maduro-veiled-threat-jail-venezuela-opposition-leader-juan-guaido),
+    [donald trump](https://www.theguardian.com/commentisfree/2019/jan/24/donald-trump-venezuela-nicolas-maduro),
+    juan guaido
+    * Topic 2: [work class family](https://www.theguardian.com/world/2018/feb/12/venezuelan-middle-class-economic-crisis-pawn-shops),
+    [human right](https://www.theguardian.com/world/2019/oct/17/venezuela-un-human-rights-council-activists-outraged),
+    [sanction maduro](https://www.theguardian.com/world/2019/jan/28/trump-venezuela-sanctions-oil-pdvsa-maduro-guaido),
+    [oil price](https://www.theguardian.com/business/2018/oct/12/oil-price-barrel-markets-iran-sanctions)
+    * Topic 3: import food medicine,[electoral boycott](https://www.theguardian.com/world/2017/dec/08/venezuela-opposition-boycott-mayoral-elections),
+    import food,black market
+    * Topic 4: brief deliver thousands,sign morning,sign morning brief,morning brief
+    * Topic 5: [supreme court](https://www.theguardian.com/world/2017/jun/28/venezuela-supreme-court-grenade-police-helicopter),
+    [security force](https://www.theguardian.com/world/2017/jun/20/venezuela-protester-killed-demonstrations),
+    [human right](https://www.theguardian.com/world/2020/sep/16/venezuela-un-report-crimes-against-humanity-maduro-government),
+    [constituent assembly](https://www.theguardian.com/world/2017/jul/29/venezuela-government-maduro-vote-end-democracy)
+    
+    ''')
 
+    
+    
+if period == 'Up to December 2021':
+    st.write('''
+    * Topic 1: [venezuelan refugees](https://www.theguardian.com/global-development/2021/jul/06/i-didnt-eat-for-days-hunger-stalks-venezuelan-refugees),
+    human right,latin american,[latin america](https://www.theguardian.com/global-development/2021/jun/21/latin-america-will-never-be-the-same-venezuela-exodus-reaches-record-levels)
+    * Topic 2: [refugees migrants](https://www.theguardian.com/global-development/2021/feb/11/i-can-build-a-real-life-colombia-to-grant-legal-status-to-venezuelan-migrants),drug traffic,tell guardian,year old
+    * Topic 3: president nicolas,[president nicolas maduro](https://www.theguardian.com/world/2021/jan/18/venezuela-nicolas-maduro-oxygen-brazil-covid),
+    drug traffic,nicolas maduro
+    * Topic 4: president nicolas maduro,president nicolas,nicolas maduro,political crisis
+    * Topic 5: economic social,refugee agency,venezuelan migrants,million venezuelans
+    ''')
 
     
 
