@@ -57,16 +57,16 @@ if period == '2004-2009' :
     
     * Topic 1: latin american, 
     [george bush](https://www.theguardian.com/news/blog/2007/mar/12/snappingatbus) 
-    ,[bush administration](https://www.theguardian.com/world/2005/feb/22/venezuela.julianborger),venezuelan president
+    ,[bush administration](https://www.theguardian.com/world/2005/feb/22/venezuela.julianborger), venezuelan president
     * Topic 2: [land reform](https://www.theguardian.com/world/2005/mar/14/venezuela),
     radio television,
-    [press freedom](https://www.theguardian.com/media/greenslade/2006/jul/21/pressfreedominvestigationin),president hugo
+    [press freedom](https://www.theguardian.com/media/greenslade/2006/jul/21/pressfreedominvestigationin), president hugo
     * Topic 3: [human right](https://www.theguardian.com/world/2008/sep/18/venezuela.humanrights),
-    latin american,simon bolivar,latin america
+    latin american, simon bolivar, latin america
     * Topic 4: public service,[socialist revolution](https://www.theguardian.com/commentisfree/2006/may/15/chavezispopulistnotasocia),
     term limit,[opinion poll](https://www.theguardian.com/world/2004/aug/16/venezuela.danglaister)
     * Topic 5: [colombia farc](https://www.theguardian.com/world/2008/sep/13/venezuela.usa),
-    revolutionary arm,force colombia,arm force
+    revolutionary arm, force colombia, arm force
     ''')
 
     
@@ -75,17 +75,17 @@ if period == '2009-2014' :
     st.write('''
     The main topics in this time frame were:
     
-    * Topic 1: president nicolas,rule party,
+    * Topic 1: president nicolas, rule party,
     [henrique capriles](https://www.theguardian.com/world/2012/feb/13/venezuela-hugo-chavez),
     national assembly
     * Topic 2:[unite state](https://www.theguardian.com/commentisfree/2013/apr/22/united-states-contempt-venezuelan-democracy),
-    south america,socialist revolution,president hugo
+     south america, socialist revolution, president hugo
     * Topic 3: henrique capriles,
-    [south america](https://www.theguardian.com/world/2013/mar/06/south-american-leaders-venezuelans-chavez)
-    ,unite state,latin american
+     [south america](https://www.theguardian.com/world/2013/mar/06/south-american-leaders-venezuelans-chavez)
+    , unite state, latin american
     * Topic 4: [socialist revolution](https://www.theguardian.com/world/2012/oct/08/venezuela-election-hugo-chavez),
-    vice president, human right,national guard
-    * Topic 5: national assembly,socialist revolution,oil revenues,
+    vice president, human right, national guard
+    * Topic 5: national assembly, socialist revolution, oil revenues,
     [oil company](https://www.theguardian.com/world/2009/jul/16/venezuela-oil-hugo-chavez-politics)
     ''')
     
@@ -100,13 +100,13 @@ if period == '2014-2017' :
     oil price,
     [national assembly](https://www.theguardian.com/world/2010/sep/23/hugo-chavez-venezuelan-assembly-vote)
     * Topic 2: [human right abuse](https://www.theguardian.com/commentisfree/2014/mar/06/europe-left-condemn-human-rights-violations-venezuela-chavez-maduro),
-    right abuse,latin america,human right
+    right abuse, latin america, human right
     * Topic 3: late president hugo,late president,president hugo,president hugo chavez
-    * Topic 4: [price control](https://www.theguardian.com/world/2013/nov/11/venezuela-troops-patrol-stores-control-inflation),
-    currency control,exchange rate,
+    * Topic 4: [price control](https://www.theguardian.com/world/2013/nov/11/venezuela-troops-patrol-stores-control-inflation), 
+     currency control, exchange rate,
     [black market](https://www.theguardian.com/global-development-professionals-network/2015/apr/16/venezuela-economy-black-market-milk-and-toilet-paper)
     * Topic 5: [leader leopoldo](https://www.theguardian.com/world/2015/sep/11/venezuela-opposition-leader-leopoldo-lopez-sentenced-to-14-years-in-jai),
-    leader leopoldo lopez,
+     leader leopoldo lopez,
     [opposition leader](https://www.theguardian.com/world/2013/apr/25/venezuela-threatens-opposition-leader-protest),leopoldo lopez
     ''')
     
@@ -140,9 +140,9 @@ if period == 'Up to December 2021' :
     human right,latin american,[latin america](https://www.theguardian.com/global-development/2021/jun/21/latin-america-will-never-be-the-same-venezuela-exodus-reaches-record-levels)
     * Topic 2: [refugees migrants](https://www.theguardian.com/global-development/2021/feb/11/i-can-build-a-real-life-colombia-to-grant-legal-status-to-venezuelan-migrants),drug traffic,tell guardian,year old
     * Topic 3: president nicolas,[president nicolas maduro](https://www.theguardian.com/world/2021/jan/18/venezuela-nicolas-maduro-oxygen-brazil-covid),
-    drug traffic,nicolas maduro
-    * Topic 4: president nicolas maduro,president nicolas,nicolas maduro,political crisis
-    * Topic 5: economic social,refugee agency,venezuelan migrants,million venezuelans
+    drug traffic, nicolas maduro
+    * Topic 4: president nicolas maduro, president nicolas, nicolas maduro, political crisis
+    * Topic 5: economic social,refugee agency, venezuelan migrants, million venezuelans
     ''')
 
     
