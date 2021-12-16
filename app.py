@@ -3,7 +3,8 @@ import os
 
 import matplotlib.pyplot as plt
 import pandas as pd
-
+from sqlalchemy import create_engine
+from sqlalchemy import Table, Column, Integer, String, MetaData, Float, Date
 
 
 
@@ -146,7 +147,12 @@ if period == 'Up to December 2021' :
     ''')
 
     
+    
+ ##Database connection for user generated queries.
 
+engine = create_engine('sqlite:///news.db', echo=False)
+articles = pd.read_sql_query("SELECT * FROM newstable limit 20", engine).fetchall()
+st.write("Articles: ", articles)
     
 # def header(url):
 #      st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);opacity: 0.5;color:#000000;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
