@@ -175,9 +175,15 @@ st.markdown("""<hr style="height:10px;border:none;color:#696969;background-color
 
 # Print results.
 st.write(f"### Results for the search of '{word}' in the year {year}")
-for row in rows:
-    st.write(f"Title : {row[0]}")
-    st.write(f"{row[1]}")
+
+#If there are articles to show
+if rows:
+    for row in rows:
+        st.write(f"Title : {row[0]}")
+        st.write(f"{row[1]}")
+        
+else:
+    st.write("Sorry, there are no articles to show for this search")
 # def header(url):
 #      st.markdown(f'<p style="background-color:rgba(255, 255, 255, 0.5);opacity: 0.5;color:#000000;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
         
