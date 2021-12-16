@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import time
+import schedule
 
 import matplotlib.pyplot as plt
 import pandas as pd
