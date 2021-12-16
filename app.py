@@ -150,7 +150,9 @@ if period == 'Up to December 2021' :
     
  ##Database connection for user generated queries.
 
-num_art = st.slider('How many articles would you like to check?', 1, 10, 1)
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
+
+num_art = st.slider('How many articles would you like to check?', 1, 7, 1)
 
 engine = create_engine('sqlite:///news.db', echo=False)
 articles = pd.read_sql_query(f"SELECT title, url FROM newstable limit {num_art}", engine)
