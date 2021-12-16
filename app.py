@@ -152,7 +152,7 @@ if period == 'Up to December 2021' :
     
  ##Database connection for user generated queries.
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;opacity = 0;background-color:#333;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:##E8E8EE;opacity = 0;background-color:##E8E8E8	;" /> """, unsafe_allow_html=True)
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#333;" /> """, unsafe_allow_html=True)
