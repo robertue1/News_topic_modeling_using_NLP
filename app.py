@@ -189,6 +189,8 @@ else:
 
 def job():
     st.write("Test...")
-
+while True:
+    schedule.run_pending()
+    time.sleep(1)
     
 schedule.every(10).seconds.do(job)
