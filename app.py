@@ -151,7 +151,7 @@ if period == 'Up to December 2021' :
  ##Database connection for user generated queries.
 
 engine = create_engine('sqlite:///news.db', echo=False)
-articles = pd.read_sql_query("SELECT title FROM newstable limit 5", engine)
+articles = pd.read_sql_query("SELECT title, url FROM newstable limit 5", engine)
 st.write("Articles: ", articles)
     
 # def header(url):
