@@ -3,6 +3,9 @@ import os
 import time
 import schedule
 
+import urllib3
+from urllib3 import request
+
 import matplotlib.pyplot as plt
 import pandas as pd
 from sqlalchemy import create_engine
