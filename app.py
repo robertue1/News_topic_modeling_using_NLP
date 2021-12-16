@@ -155,7 +155,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3
 
 st.write("## Now, you will have the chance to explore articles on your own")
 
-st.write("#You can try your own words to search")
+st.write("### You can try your own words to search")
 word = st.text_input('Type here')
 st.write(f"{word}")
 
@@ -165,7 +165,7 @@ engine = create_engine('sqlite:///news.db', echo=False)
 # articles = pd.read_sql_query(f"SELECT title, url FROM newstable limit {num_art}", engine)
 # st.write("Articles: ", articles)
 
-rows = engine.execute(f"SELECT title, url FROM newstable limit {num_art}").fetchall()
+rows = engine.execute(f"SELECT title, url FROM newstable limit {num_art} WHERE title like %{word}").fetchall()
 
 # Print results.
 for row in rows:
