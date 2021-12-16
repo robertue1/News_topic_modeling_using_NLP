@@ -222,6 +222,8 @@ def job():
     from_date = "2021-12-01"
     to_date = "Inifite and beyond"
     retrieved_articles = 0
+    num_articles=0 #initally
+    st.write(f"{num_articles}")
     for i in range(1,100):
           query_url = f"http://content.guardianapis.com/search?" \
                       f"api-key={API_KEY}" \
@@ -245,11 +247,11 @@ def job():
           #articles, to see if i should break the for loop prematurely
           if retrieved_articles > num_articles:
             break
-    st.write(f"{num_articles}")
+    
     
     
 while True:
     schedule.run_pending()
-    time.sleep(1)
+    time.sleep(30)
     
-schedule.every(30).seconds.do(job)
+schedule.every(10).seconds.do(job)
