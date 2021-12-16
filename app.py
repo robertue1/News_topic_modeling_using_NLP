@@ -162,11 +162,8 @@ num_art = st.slider('How many articles would you like to check?', 1, 7, 1)
 engine = create_engine('sqlite:///news.db', echo=False)
 # articles = pd.read_sql_query(f"SELECT title, url FROM newstable limit {num_art}", engine)
 # st.write("Articles: ", articles)
-def run_query(query):
-    with engine.cursor() as cur:
-        cur.execute(query)
-        return cur.fetchall()
-rows = run_query(f"SELECT title, url from newstable limit {num_art}")
+
+rows = engine.execute(f"SELECT title, url FROM newstable limit {num_art}").fetchall()
 
 # Print results.
 for row in rows:
