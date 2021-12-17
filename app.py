@@ -216,7 +216,7 @@ ca_certs=certifi.where())
 #Working on the automatic update of the database    
 
 # def job():
-#     API_KEY = '189604c2-ac97-4295-9ccf-e3556505cff3'
+#     API_KEY = '189604c2-ac97-4295-'
 #     query = "Venezuela | Chavez | Maduro"
 #     query_fields = "webTitle"
 #     section = "news"
