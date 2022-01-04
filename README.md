@@ -5,7 +5,7 @@
 
 Venezuela was once one of the most developed countries in the Latin America region, thanks to being the country with the biggest oils reserves in the world
 and its priviliged geographical location. Today, the country is going through its worse crisis and is generating a massive wave of migrants, most of them traveling
-south in the continent. The idea of this project, was to perform topic modeling on more than 6000 news articles from The Guardian, starting from 1999 to present times, and determine which where the key factors that lead to this crisis to unwind. 
+south in the continent. The idea of this project, was to perform topic modeling on more than 7000 news articles from The Guardian, starting from 1999 to present times, and determine which where the key factors that lead to this crisis to unwind. 
 
 
 ## Design
