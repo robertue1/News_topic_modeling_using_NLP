@@ -28,6 +28,6 @@ News articles from [The Guardian API](https://open-platform.theguardian.com/docu
 
 ## Communication 
 
-5 minutes presentation, a slide deck and a publicly available [web application](https://share.streamlit.io/robertue1/engineering/main/app.py)
+5 minutes presentation, a slide deck and a publicly available [web application](https://share.streamlit.io/robertue1/news_topic_modeling_using_nlp/main/app.py)
 
 
