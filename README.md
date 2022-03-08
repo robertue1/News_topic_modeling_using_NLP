@@ -10,7 +10,7 @@ south in the continent. The idea of this project, was to perform topic modeling 
 
 ## Design
 
-Initially, 7400 news articles were gather by using The Guardian API, using the keywords: ('Venezuela', 'Chavez' (late president), 'Maduro' (current president)). After performing cleaning and pre-processing of the data to apply topic modeling. Topics weren't that useful to understand the current situation, for this reason, articles were filtered to only those that included any of the keywords in the title. Results from the modeling and a db were uploaded to a public GitHub repository, a connection to Streamlit Share was established and an interactive web-app was deployed, were users can do their own research, by looking at articles titles and their links stored in the database serving the project. 
+Initially, 7400 news articles were gathered by using The Guardian API, using the keywords: ('Venezuela', 'Chavez' (late president), 'Maduro' (current president)). After performing cleaning and pre-processing of the data to apply topic modeling. Topics weren't that useful to understand the current situation, for this reason, articles were filtered to only those that included any of the keywords in the title. Results from the modeling and a db were uploaded to a public GitHub repository, a connection to Streamlit Share was established and an interactive web-app was deployed, were users can do their own research, by looking at articles titles and their links stored in the database serving the project. 
 
 
 ## Data
