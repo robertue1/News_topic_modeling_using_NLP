@@ -21,7 +21,7 @@ News articles from [The Guardian API](https://open-platform.theguardian.com/docu
 
 * Google Colab - Processing platfrom
 * Requests - Data Acquisition
-* Pandas, numpy - Processing and data exploration
+* Pandas, NumPy - Processing and data exploration
 * Gensim, NTLK, Scikit-Learn - NLP pre-processing and model development. 
 * SQLite and Github- Data storage
 * Streamlit - Web app design and deployment
