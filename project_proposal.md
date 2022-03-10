@@ -1,8 +1,7 @@
 # Understanding the declive of Venezuela by analyzing news from 1999 to present. 
 
 For this project, I'll be using [The Guardian API](https://open-platform.theguardian.com/documentation/search) to retrieve bodies of text from news
-articles (spanning more than 20 years of news articles, starting in 1999), and apply NLP techniques to do topic modeling and come up with the most
-popular words by years (or other period of time), and see the changes over time, and try to generate an understanding of how the country plummeted. 
+articles (spanning more than 20 years of news articles, starting in 1999), and apply NLP techniques to do topic modeling over a determined timeframe, and see the changes over time, trying to develop an understanding of how the country economically plummeted. 
 
 This is how a call to the API is done:
 <img width="609" alt="Screen Shot 2021-12-08 at 5 22 33 PM" src="https://user-images.githubusercontent.com/34829066/145302105-8e879b1f-0d72-4634-bb93-5a4da9c51fc5.png">
