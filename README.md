@@ -10,8 +10,7 @@ south in the continent. The idea of this project was to perform topic modeling o
 
 ## Design
 
-Initially, 7400 news articles were gathered by using The Guardian API, looking for the following keywords anywhere in the article: ('Venezuela’, 'Chavez' (late president), and 'Maduro' (current president)). After performing the pre-processing neccesary to apply topic modeling technique, the resulting topics would not provide much information to help understand the current situation of the country; for this reason, articles were filtered to just include those having the keywords as part of the title. Results from the and a database were uploaded to a public GitHub repository, a connection to Streamlit Share was established, and an interactive web app was deployed, where users can do their research by looking at articles titles and their links stored in the database serving the project. 
-
+Initially, 7400 news articles were gathered by using The Guardian API, looking for the following keywords anywhere in the article: ('Venezuela,' 'Chavez' (late president), and 'Maduro' (current president)). After performing the pre-processing necessary to apply topic modeling technique, the resulting topics would not provide much information to help understand the country's current situation; for this reason, articles were filtered to include those with the keywords as part of the title. Results from the modeling and a database were uploaded to a public GitHub repository, a connection to Streamlit Share was established, and an interactive web app was deployed, where users can do their research by looking at articles titles and their links stored in the database serving the project.
 
 ## Data
 
