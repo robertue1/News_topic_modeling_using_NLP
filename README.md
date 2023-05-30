@@ -3,14 +3,14 @@
 
 ## Abstract
 
-Venezuela was once one of the most developed countries in the Latin America region, thanks to being the country with the biggest oils reserves in the world
-and its priviliged geographical location. Today, the country is going through its worse crisis and is generating a massive wave of migrants, most of them traveling
+Venezuela was once one of the most developed countries in the Latin America region, thanks to being the country with the biggest oil reserves in the world,
+and its priviliged geographical location. Today, the country is going through its worse crisis, and is generating a massive wave of migrants, most of them traveling
 south in the continent. The idea of this project was to perform topic modeling on more than 7000 news articles from The Guardian, starting from 1999 to the present, and determine which were the key factors that led to this crisis unwinding. 
 
 
 ## Design
 
-Initially, 7400 news articles were gathered by using The Guardian API, using the keywords: ('Venezuela’, 'Chavez' (late president), and 'Maduro' (current president)). After performing cleaning and pre-processing of the data to apply topic modeling. Topics weren't that useful to understand the current situation; for this reason, articles were filtered to only those that included any of the keywords in the title. Results from the modeling and a database were uploaded to a public GitHub repository, a connection to Streamlit Share was established, and an interactive web app was deployed, where users can do their research by looking at articles titles and their links stored in the database serving the project. 
+Initially, 7400 news articles were gathered by using The Guardian API, looking for the following keywords anywhere in the article: ('Venezuela’, 'Chavez' (late president), and 'Maduro' (current president)). After performing the pre-processing neccesary to apply topic modeling technique, the resulting topics would not provide much information to help understand the current situation of the country; for this reason, articles were filtered to just include those having the keywords as part of the title. Results from the and a database were uploaded to a public GitHub repository, a connection to Streamlit Share was established, and an interactive web app was deployed, where users can do their research by looking at articles titles and their links stored in the database serving the project. 
 
 
 ## Data
